@@ -27,12 +27,10 @@
     <meta property="twitter:description"
         content="Dejare is a self-taught software engineer, who has spent most of his time in creating bespoke products to put a smile on client faces!">
 
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>Dejare | FrontEnd Developer</title>
-    <link rel="stylesheet" href="./static/css/tailwi
-    hnd.css">
-    <link rel="stylesheet" href="./static/css/scroll.css"
-    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css" >
+    <link rel="stylesheet" type="text/css" href="./static/css/main.css">
 
 </head>
 <body>
@@ -49,13 +47,20 @@
                 <h1>ABOUT ME</h1>
             </div>
             <div class="aboutcontent">
-                <div class="aboutimg">
+                <div class="aboutimg" data-aos="zoom-in">
                     <img src="./static/images/about.png" alt="">
                 </div>
                 <div class="abouttext">
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nam doloremque exercitationem cum quidem atque tempore libero placeat, eos voluptate ipsam modi voluptates ex perspiciatis commodi delectus dignissimos itaque aspernatur?
-                    Maiores itaque beatae minima odio voluptatum eos, doloribus, vero perspiciatis, vitae eveniet quis ut eaque sint enim in quia commodi magnam asperiores. Quidem dignissimos praesentium, quasi similique dolore laudantium voluptate!
+                    <p data-aos="fade-down">
+                        Hi, I'm Dejare Daniels. I am a self-taught FRONT-END DEVELOPER and school taught COMPUTER ENGINEER. I school
+                        at the FEDERAL UNIVERSITY OF TECHNOLOGY AKURE. I am passionate about leveraging my diverse backgrounds to decipher challenging problems and create delightful experiences. I honed my
+                        skills at web development, technical writing and SEO analytics.
+    
+                        I develop websites with HTML, CSS and JavaScript. I have top skills in using design softwares
+                        like Figma, Adobe XD, Invision and PhotoShop; with prototype tools like Framer and Protopie.
+    
+                        Being a diligent, hardworking and result oriented guy, I always work towards achieving best
+                        result on each project I lay my hands on.
                     <br>
                 </p>
                     <button class="btn aboutbtn"><a href="#">Resume</a></button>
@@ -65,14 +70,14 @@
     </section>
     <section class="projects">
         <div class="projectheading heading">
-            <h1>Projects</h1>
+            <h1 data-aos="fade-right">Projects</h1>
         </div>
         <div class="project-content">
             <div class="projecttext">
-                <h1>Project Title</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto doloremque natus error suscipit cumque? Facilis nulla corrupti, unde in ipsum quam vitae aperiam quibusdam veritatis, possimus quos itaque debitis quas.
+                <h1 data-aos="fade-right">Project Title</h1>
+                <p data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto doloremque natus error suscipit cumque? Facilis nulla corrupti, unde in ipsum quam vitae aperiam quibusdam veritatis, possimus quos itaque debitis quas.
                 Perspiciatis vel illum, voluptatum magni consequatur excepturi rem saepe error ratione repellendus cumque fuga laboriosam at facilis est tenetur vero blanditiis corrupti ad molestias nam neque similique, animi veniam. Hic.</p>
-                <button class="project-btn-one btn"><a href="#">See Live</a></button>
+                <button class="project-btn-one btn" data-aos="fade-right" ><a href="#">See Live</a></button>
                 <button class="project-btn-two btntwo"> <a href="#">Source Code</a></button>
             </div>
             <div class="projectimg">
@@ -82,10 +87,10 @@
     </section>
     <section class="contact">
         <div class="contactheading heading">
-            <h1>Contact</h1>
+            <h1 data-aos="zoom-in">Contact</h1>
             <div class="contact-content">
-                <p>Would you like to work with me? Awesome!</p>
-                <button class="btn contact-btn"> <a href="#">Let's Talk</a> </button>
+                <p data-aos="zoom-in">Would you like to work with me? Awesome!</p>
+                <button class="btn contact-btn" data-aos="zoom-in"> <a href="#">Let's Talk</a> </button>
             </div>
         </div>
     </section>
@@ -108,5 +113,11 @@
 <script src="./static/js/index.js">
     
 </script>
+<script src="./static/css/aos.css"></script>
+<script>
+    AOS.init({
+
+    })
+  </script>
 </body>
 </html>
