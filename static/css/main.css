@@ -33,7 +33,7 @@ p, a{
     font-size: 40px;
 }
 .herotext span{
-    color:rgb(68, 81, 226);
+    color: #008a79;
 }
 .btn{
     margin: 2rem 0rem;
@@ -54,7 +54,7 @@ p, a{
 }
 /*ABOUT SECTION*/
 .about{
-    background: linear-gradient(225deg, hsla(235, 100%, 78%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+    background: #00606c;
     height: 100vh;
     width: 100%;
 }
@@ -132,7 +132,7 @@ p, a{
 
 /*CONTACT*/
 .contact{
-    background: linear-gradient(225deg, hsla(235, 100%, 78%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+    background: #00606c;
     color: white;
     height: 40vh;
 }
@@ -151,7 +151,7 @@ p, a{
 /******FOOTER ****/
 .footer{
     height: 100%;
-    background: #000;
+    background: #121229;
 }
 .totop{
     padding-top: 5rem;
@@ -246,18 +246,27 @@ p, a{
     }
     .projectimg img{
         margin: 0 2.5rem;
+        margin-bottom: 2rem;
         width: 300px;
         height: 150px;
     }
     .project-btn-one{
-        padding: .65rem .8rem;
+        padding: .65rem .6rem;
     }
     .project-btn-one a:hover{
         letter-spacing: 5px;
     }
+    .btntwo{
+        padding: .65rem .6rem;
+    }
     .contact{
         width: 100%;
         height: 100%;
+    }
+    .aboutimg img{
+        width: 300px;
+        height: 300px;
+        margin-right: 5rem;
     }
 }
 @media screen and (max-width: 350px) {

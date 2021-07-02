@@ -5,3 +5,6 @@ document.querySelector('.totop').addEventListener('click', function() {
     document.documentElement.scrollTop = 0;
 });
 
+AOS.init({
+        
+})
