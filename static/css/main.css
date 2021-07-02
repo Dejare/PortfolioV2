@@ -151,10 +151,10 @@ p, a{
 /******FOOTER ****/
 .footer{
     height: 100%;
-    background: #001c40;
+    background: #000718;
 }
 .totop{
-    padding-top: 5rem;
+    padding-top: 2rem;
     margin: 2rem 0rem;
     text-align: center;
     cursor: pointer;
