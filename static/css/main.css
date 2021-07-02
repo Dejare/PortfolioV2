@@ -55,7 +55,7 @@ p, a{
 /*ABOUT SECTION*/
 .about{
     background: #00606c;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 .heading{
@@ -73,9 +73,9 @@ p, a{
     color: white;
 }
 .aboutimg img{
-    width: 400px;
+    width: 500px;
     height: 400px;
-    margin-right: 5rem;
+    margin-right: 1rem;
 }
 .abouttext{
     margin: .6rem 4rem;
@@ -151,7 +151,7 @@ p, a{
 /******FOOTER ****/
 .footer{
     height: 100%;
-    background: #121229;
+    background: #001c40;
 }
 .totop{
     padding-top: 5rem;
