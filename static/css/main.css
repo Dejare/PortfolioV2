@@ -34,6 +34,27 @@ p, a{
 }
 .herotext span{
     color: #008a79;
+    animation: text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+    transition: all 2.5s;
+}
+@keyframes text {
+    0%{
+        color: #008a79;
+    }
+    25%{
+        color: #4451e2;
+    }
+    50%{
+        color: aqua;
+    }
+    75%{
+        color: #000718;
+    }
+    100%{
+        color: #008a79;
+    }
 }
 .btn{
     margin: 2rem 0rem;
