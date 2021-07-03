@@ -136,6 +136,9 @@ p, a{
     color: white;
     height: 40vh;
 }
+.contactsvg{
+    display: none;
+}
 .heading h1{
     padding-top: 2rem;
     margin:2rem 0rem;
@@ -211,6 +214,9 @@ p, a{
     }
     .btn:hover{
         letter-spacing: 8px;
+    }
+    .contactsvg{
+        display: block;
     }
     .aboutcontent{
         display: flex;
