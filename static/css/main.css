@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat';
+    user-select: none;
 
 }
 html{
@@ -198,12 +199,19 @@ svg{
     min-height: 100vh;
     background-color: #fff;
 }
+.projectheading{
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
 .project-content{
     display: flex;
     flex-direction: row;
 }
 .projecttext{
-    margin: 1rem 5rem;
+    margin: 1rem 3rem;
 }
 .projecttext h1{
     margin-bottom: 1.5rem;
@@ -211,6 +219,7 @@ svg{
 .projectimg img{
     width: 600px;
     height: 350px;
+    margin: 0rem 5rem;
     margin-right: 5rem;
 }
 .btntwo{
@@ -225,7 +234,7 @@ svg{
 }
 .btntwo:hover{
     background: #000;
-    color: white;
+    color: #ffffff;
 }
 .project-btn-one:hover{
     letter-spacing: 9px;
@@ -233,7 +242,21 @@ svg{
 .btntwo a:hover{
     color: white;
 }
-
+.sus-btn{
+    width: 100%;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sus-btn a{
+    color: black;
+    color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    align-items: center;
+}
 /*CONTACT*/
 .contact{
     background: #00606c;
