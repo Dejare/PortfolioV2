@@ -16,6 +16,86 @@ html{
 p, a{
     font-size: 20px;
 }
+.animeballs{
+
+}
+.one{
+    background: #000;
+    padding: .3rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    animation: one;
+    animation-iteration-count: infinite;
+    animation-duration: 1.6s;
+}
+.two{
+    background: #4451e2;
+    padding: 1.2rem;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    animation: two;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.three{
+    background: #008a79;
+    padding: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    animation: three;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+.four{
+    background: #f11616;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    animation: four;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes one {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translate(300px, 400px);
+    }
+}
+@keyframes two {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translate(-500px, 600px);
+    }
+}
+@keyframes three {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translate(500px, -400px);
+    }
+}
+@keyframes four {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translate(-200px, -400px);
+    }
+}
+
+
 .hero{
     height: 100vh;
     width: 100vw;
@@ -38,6 +118,9 @@ p, a{
     animation-duration: 3s;
     animation-iteration-count: infinite; 
     transition: all 2.5s;
+}
+svg{
+    display: none;
 }
 @keyframes text {
     0%{
@@ -128,7 +211,7 @@ p, a{
 .projectimg img{
     width: 600px;
     height: 350px;
-    margin-right: 0rem;
+    margin-right: 5rem;
 }
 .btntwo{
     background: none;
@@ -221,6 +304,9 @@ p, a{
 @media screen and (max-width: 480px) {
     *{
         overflow-x: hidden;
+    }
+    svg{
+        display: block;
     }
     a{
         font-size: 16px;
