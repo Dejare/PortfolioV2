@@ -32,6 +32,7 @@
     <title>Dejare | FrontEnd Developer</title>
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css" >
     <link rel="stylesheet" type="text/css" href="./static/css/main.css">
+    <script src="./static/js/header.js" defer></script>
 
 </head>
 <body>
@@ -40,18 +41,37 @@
         <div class="two"></div>
         <div class="three"></div>
         <div class="four"></div>
-    
         
     </div>
+    <header class="header">
+        <div class="logo">
+            <label for="Logo">DEJARE!</label>
+        </div>
+        <div class="navimg">
+            &spadesuit;
+        </div>
+        <nav class="nav">
+            <div class="logo2">
+                <label for="Logo">DEJARE!</label>
+            </div>
+            <div class="navclose">&times;</div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
     <section class="hero">
 
         <div class="herotext" >
             <h1>Hi, My name is <span>Dejare Daniels</span></h1> <br> <h1>I'm a Front-End Developer, I create bespoke websites to help clients go further online.</h1>
-            <button class="hero-btn btn"><a href="#">Know More.</a></button>
+            <button class="hero-btn btn"><a href="#about">Know More.</a></button>
         </div>
 
     </section>
-    <section class="about">
+    <section id="about">
         <div class="about-bg">
             <div class="aboutheading heading">
                 <h1>ABOUT ME</h1>
@@ -76,7 +96,7 @@
             
         </div>
     </section>
-    <section class="projects">
+    <section id="projects">
         <div class="projectheading heading">
             <h1 data-aos="fade-right">Projects</h1>
         </div>
@@ -97,7 +117,7 @@
               </svg>
         </div>
     </section>
-    <section class="contact">
+    <section id="contact">
         <div class="contactheading heading">
             <h1 data-aos="zoom-in">Contact</h1>
             <div class="contact-content">
@@ -133,14 +153,15 @@
         </div>
     </footer>
 </section>
-<script src="./static/js/index.js">
+<script src="./static/js/index.js" defer>
     
 </script>
+
 <script src="./static/css/aos.css"></script>
 <script>
         AOS.init({
         offset: 300,
-        duration: 1000
+        duration: 900
         });
   </script>
 </body>
