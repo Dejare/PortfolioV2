@@ -20,6 +20,9 @@ p, a{
 .animeballs{
 
 }
+body, html{
+    width: 100%;
+}
 /**********************HEADER************************/
 .header{
     width: 100%;
@@ -135,8 +138,8 @@ p, a{
 
 .hero{
     height: 100vh;
-    width: 100vw;
-    background-color: #fff;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
 }
 .herotext{
     margin-left: 3rem;
@@ -214,10 +217,9 @@ svg{
     color: white;
 }
 .aboutimg img{
-    width: 400px;
+    width: 600px;
     height: 400px;
-    margin-right: 1rem;
-    margin-left: 3rem;
+    padding-bottom: 5rem;
 }
 .abouttext{
     margin: .6rem 2rem;
@@ -235,6 +237,7 @@ svg{
 .projects{
     min-height: 100vh;
     background-color: #fff;
+    display: f;
 }
 .projectheading{
     color: black;
@@ -254,8 +257,8 @@ svg{
     margin-bottom: 1.5rem;
 }
 .projectimg img{
-    width: 400px;
-    height: 350px;
+    width: 550px;
+    height: 300px;
     margin: 0rem 5rem;
     margin-right: 5rem;
 }
