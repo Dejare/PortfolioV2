@@ -58,6 +58,8 @@ p, a{
     position: fixed;
     z-index: 9999;
     transition: 1s ease-in;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .nav ul{
     width: 100%;
