@@ -52,14 +52,12 @@ p, a{
     right: 5%;
 }
 .nav{
-    width: 100%;
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     background: #008a79;
     position: fixed;
     z-index: 9999;
     transition: 1s ease-in;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 .nav ul{
     width: 100%;
@@ -395,6 +393,12 @@ svg{
 @media screen and (max-width: 900px) {
     .nav ul li a:hover{
         display: none;
+    }
+    .navimg{
+        font-size: 1.4rem;
+    }
+    .btn:hover{
+        letter-spacing: normal;
     }
 }
 
