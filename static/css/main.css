@@ -85,25 +85,14 @@ p, a{
 .nav{
     display: none;
 }
-.one{
-    background: #000;
-    padding: .3rem;
-    border-radius: 50%;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    animation: one;
-    animation-iteration-count: infinite;
-    animation-duration: 1.6s;
-}
-.two{
+.four{
     background: #4451e2;
     padding: 1.2rem;
     transform: rotate(45deg);
     position: absolute;
     top: 0%;
     right: 0%;
-    animation: two;
+    animation: four;
     animation-iteration-count: infinite;
     animation-duration: 2s;
 }
@@ -116,40 +105,20 @@ p, a{
     left: 0%;
     animation: three;
     animation-iteration-count: infinite;
-    animation-duration: 3s;
-}
-.four{
-    background: #f11616;
-    padding: 1rem;
-    position: absolute;
-    bottom: 0%;
-    right: 0%;
-    animation: four;
-    animation-iteration-count: infinite;
-    animation-duration: 4s;
-}
-@keyframes one {
-    0%{
-        transform: none;
-    }
-    50%{
-        transform: translate(300px, 400px);
-    }
-}
-@keyframes two {
-    0%{
-        transform: none;
-    }
-    50%{
-        transform: translate(-500px, 600px);
-    }
+    animation-duration: 4.5s;
 }
 @keyframes three {
     0%{
-        transform: none;
+        display: none;
     }
-    50%{
+    40%{
         transform: translate(500px, -400px);
+    }
+    75%{
+        transform: translate(700px, 100px);
+    }
+    100%{
+        display: none;
     }
 }
 @keyframes four {
@@ -157,10 +126,12 @@ p, a{
         transform: none;
     }
     50%{
-        transform: translate(-200px, -400px);
+        transform: translate(-200px, 400px);
     }
+    90%{
+        transform: translate(-300px, 500px);
 }
-
+}
 
 .hero{
     height: 100vh;
