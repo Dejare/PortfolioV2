@@ -88,6 +88,10 @@ body, html{
 .nav{
     display: none;
 }
+svg{
+    display: none;
+    border: none;
+}
 .four{
     background: #4451e2;
     padding: 1.2rem;
@@ -158,9 +162,6 @@ body, html{
     animation-duration: 3s;
     animation-iteration-count: infinite; 
     transition: all 2.5s;
-}
-svg{
-    display: none;
 }
 @keyframes text {
     0%{
@@ -282,6 +283,10 @@ svg{
 .btntwo a:hover{
     color: white;
 }
+.sus{
+    background-color: #fff;
+    border: none;
+}
 .sus-btn{
     width: 100%;
     background: none;
@@ -305,7 +310,8 @@ svg{
     height: 40vh;
 }
 .contactsvg{
-    display: none;
+    display: block;
+    border: none;
 }
 .heading h1{
     padding-top: 2rem;
@@ -382,6 +388,7 @@ svg{
     }
     svg{
         display: block;
+        border: none;
     }
     a{
         font-size: 16px;
@@ -399,6 +406,13 @@ svg{
     }
     .contactsvg{
         display: block;
+        border: none;
+
+    }
+    .aboutsvg{
+        display: block;
+        border: none;
+        transform: rotate(360deg);
     }
     .aboutcontent{
         display: flex;
