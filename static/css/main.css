@@ -400,10 +400,6 @@ svg{
     .herotext h1{
         top: 30%;
         font-size: 20px;
-        margin-left: 1rem;
-    }
-    .herotext{
-        margin-left: 1rem;
     }
     .btn:hover{
         letter-spacing: 8px;
