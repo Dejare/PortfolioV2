@@ -17,9 +17,6 @@ html{
 p, a{
     font-size: 20px;
 }
-.animeballs{
-
-}
 body, html{
     width: 100%;
 }
@@ -57,7 +54,7 @@ body, html{
 .nav{
     width: 100vw;
     height: 100vh;
-    background: #008a79;
+    background: #00606c;
     position: fixed;
     z-index: 9999;
     transition: 1s ease-in;
@@ -84,6 +81,9 @@ body, html{
 }
 .nav ul li a:hover{
     letter-spacing: 12px;
+}
+.nav ul li a:active{
+    color: white;
 }
 .nav{
     display: none;
@@ -184,8 +184,8 @@ svg{
     margin: 2rem 0rem;
     background: none;
     border: none;
-    border-top: 2px solid #333;
-    border-bottom: 2px solid #333;
+    border-top: 2px solid #00606c;
+    border-bottom: 2px solid #00606c;
     padding: .65rem 1.5rem;
     transition: all .25s;
 }
@@ -220,7 +220,6 @@ svg{
 .aboutimg img{
     width: 600px;
     height: 400px;
-    padding-bottom: 5rem;
 }
 .abouttext{
     margin: .6rem 2rem;
@@ -265,7 +264,7 @@ svg{
 }
 .btntwo{
     background: none;
-    border: 2px solid #000;
+    border: 2px solid #00606c;
     padding: .65rem 1.5rem;
     margin: 0rem 1rem;
 }
@@ -286,6 +285,8 @@ svg{
 .sus{
     background-color: #fff;
     border: none;
+    width: 100%;
+    height: 100%;
 }
 .sus-btn{
     width: 100%;
@@ -298,8 +299,8 @@ svg{
 .sus-btn a{
     color: black;
     color: black;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid #00606c;
+    border-bottom: 2px solid #00606c;
     align-items: center;
     padding: .7rem 1rem;
 }
@@ -310,7 +311,7 @@ svg{
     height: 40vh;
 }
 .contactsvg{
-    display: block;
+    display: none;
     border: none;
 }
 .heading h1{
@@ -379,6 +380,9 @@ svg{
     }
     .btn:hover{
         letter-spacing: normal;
+    }
+    .nav ul li a:active{
+        color: white;
     }
 }
 
