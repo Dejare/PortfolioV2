@@ -29,6 +29,9 @@ body, html{
     float: left;
     margin: 2rem;
 }
+.sustext{
+    text-align: center;
+    padding: .65rem .65rem;
 .logo2{
     float: left;
     color: white;
