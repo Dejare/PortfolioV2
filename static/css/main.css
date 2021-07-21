@@ -312,7 +312,7 @@ svg{
 #contact{
     background: #00606c;
     color: white;
-    height: 40vh;
+    height: 100%;
 }
 .contactsvg{
     display: none;
